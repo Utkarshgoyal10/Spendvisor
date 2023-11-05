@@ -1,0 +1,49 @@
+.contact-content {
+    margin-top: 20px;
+  }
+  
+  .contact-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-content ul {
+    list-style-type: none;
+  }
+
+  .contact-content li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+  @media (max-width:992px){
+    .signin-btn{
+      margin-left: 0.5rem;
+      margin-bottom: 2%;
+    }
+}
+body{
+    background-image: url("cont.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position-x:150px ;
+    background-position-y:300px ;
+    z-index: -1;
+}
